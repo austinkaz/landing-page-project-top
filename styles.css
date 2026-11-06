@@ -7,14 +7,14 @@
     display: flex;
     flex-direction: column;
     /* flex: 1; */
-    border: 5px solid black;
+    /* border: 5px solid black; */
     
 }
 
 .main1 {
     display: flex;
     flex: 1;
-    border: 5px solid black;
+    /* border: 5px solid black; */
     
 
 }
@@ -29,7 +29,7 @@
 #image1 {
     /* display:flex; */
     margin-left: auto;
-    border: 5px solid black;
+    /* border: 5px solid black; */
 }
 
 .main2 {
@@ -54,5 +54,53 @@
 
 .main2imgtxt {
     display: flex;
+
+}
+
+.main3 {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
+    margin-left: 150px;
+
+}
+
+
+.quote {
+    width: 850px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.quote-text {
+   /* border: 5px solid black; */
+   align-self: flex-end;
+   margin-right: 160px;
+   margin-top: 160px;
+
+}
+
+.main4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 100px;
+    padding: 130px;
+}
+
+.cta-txt {
+    padding: 2px;
+
+}
+
+button {
+    position: absolute;
+    align-self: flex-end;
+}
+
+.footer {
+    text-align: center;
 
 }
