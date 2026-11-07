@@ -1,3 +1,14 @@
+
+
+body {
+    width: 1440px;
+    /* height: 1962px; */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -12,28 +23,40 @@ a {
 
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-    /* padding: 60px; */
-    /* flex: 1; */
-    /* border: 5px solid black; */
-    
+h1{
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.headermain {
+    background-color:  rgb(50, 136, 255);
+
 }
 
 .main1 {
     display: flex;
-    
+    justify-content: center;
+    /* border: 5px solid black; */
+    width: 100%;
+    height: 478px;
+    flex: 1;
+    gap: 30px;
+
 
 }
 
 .content1 {
-    width: 300px;
-    height: 150px;
-    margin-right: 80px;
-    justify-content: center;
-    padding: 20px;
-    margin-bottom: 50px;
+    width: 400px;
+    height: 250px;
+    margin-left: 80px;
+    align-self: center;
+    /* border: 5px solid black; */
+    
+    
     
 
 }
@@ -41,42 +64,61 @@ a {
 
 #image1 {
     /* display:flex; */
-    margin-left: auto;
+    /* margin-left: 470px; */
+    margin-top: 115px;
+    width: 550px;
+    height: 250px;
+    /* padding: 15px; */
     /* border: 5px solid black; */
 }
 
 .main2 {
     display: flex;
     flex-direction: column;
+    height: 478px;
 }
 
 .main2title {
     text-align: center;
     height: 100px;
+    margin-top: 30px;
 
 }
 
 .main2imgs {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 10px;
-    gap: 80px;
-    margin-right: 25px;
+    gap: 50px;
+    margin-right: 10px;
+    height: 150px;
 
 }
 
 .main2imgtxt {
     display: flex;
+    /* align-items: space-evenly; */
+    align-self: center;
+    text-align: center;
+    font-size: small;
+    gap: 90px;
+    /* margin: auto; */
+    max-width: 720px;
+    /* column-gap: 65px; */
+    margin-right: 10px;
+    font-size: 13px;
 
 }
 
 .main3 {
     display: flex;
-    height: 100px;
+    height: 478px;
     align-items: center;
+    justify-content: center;
     flex: 1;
     padding: 10px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    background-color: rgb(196, 196, 196);
     /* border: 5px solid black; */
 
 }
@@ -84,39 +126,87 @@ a {
 
 .quote {
     width: 850px;
-    margin-left: 60px;
+    /* margin-left: 160px; */
     margin-top: 30px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    /* flex: 1; */
 }
 
 .quote-text {
    /* border: 5px solid black; */
    align-self: flex-end;
-   margin-right: 160px;
-   margin-top: 160px;
-
+   /* margin-right: 360px; */
+   margin-bottom: 90px;
+   font-weight: 800;
+   font-size: 22px;
+   /* flex: 1; */
 }
+
 
 .main4 {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    max-height: 100px;
-    padding: 130px;
-    /* border: 5px solid black; */
+    height: 478px;
+    /* width: 150px; */
 }
 
+.main4contents {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    width: 70%;
+    background-color: rgb(50, 136, 255);
+    margin: 100px;
+    border-radius: 20px;
+    
+
+}
+
+
+
 .cta-txt {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 115px;
     padding: 2px;
+    color: white;
+    
     /* border: 5px solid black; */
 
 }
 
 button {
-    position: absolute;
-    align-self: flex-end;
+    border-radius: 7px;
+    width: 85px;
+    padding: 3px;
+    margin-top: 10px;
+
 }
 
-.footer {
-    text-align: center;
+.button2 {
+    position: absolute;
+    align-self: flex-end;
+    margin-right: 150px;
+    border-radius: 7px;
+    padding: 10px;
+    width: 120px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
 
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(0, 11, 26);
+}
+
+.foottext {
+    color: white;
 }
